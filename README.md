@@ -7,7 +7,7 @@ I have completed the Netflix landing page and sign up page.
 - HTML5
 - CSS3
 - JS
-- Bootstrap4
+- Bootstrap
 
 
 ### Desktop UI

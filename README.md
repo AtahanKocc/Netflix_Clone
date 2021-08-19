@@ -10,7 +10,11 @@ I have completed the Netflix landing page and sign up page.
 - Bootstrap4
 
 
+## Desktop UI
 
+Homepage
+
+![Screenshot](C:\Users\HP\Desktop)
 
 
 

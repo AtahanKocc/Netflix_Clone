@@ -14,7 +14,7 @@ I have completed the Netflix landing page and sign up page.
 
 Homepage
 
-![Screenshot](C:\Users\HP\Desktop)
+![alt text](http://url/to/netflix_img.png)
 
 
 

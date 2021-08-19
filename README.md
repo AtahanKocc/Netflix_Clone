@@ -10,11 +10,7 @@ I have completed the Netflix landing page and sign up page.
 - Bootstrap4
 
 
-## Desktop UI
 
-Homepage
-
-![alt text](http://url/to/netflix_img.png)
 
 
 

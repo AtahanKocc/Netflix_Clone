@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>Netflix Sign-in Page</title>
+    <style>
+        body{
+            background-image: url("https://i.ibb.co/vXqDmnh/background.jpg");
+            height: 100%;
+        }
+        h1{
+            color:rgb(226, 224, 221);
+        }
+        form {
+            text-align: center;
+            margin-top: 100px;
+            margin-left: 400px;
+            margin-right: 400px;
+            background-color:rgba(70, 69, 69, 0.541);
+            height: 400px;
+        }
+        #inputEmail{
+            width: 400px;
+            margin-left: 150px;
+            background-color: rgba(255, 255, 255, 0.76);
+        }
+        #inputPassword{
+            width: 400px;
+            margin-left: 150px;
+            margin-bottom: 18px;
+            background-color: rgba(255, 255, 255, 0.76);
+        }
+        .btn{
+            width: 400px;
+            margin-left: 150px;
+            color: white;
+            font-style: inherit;
+            background-color: red;
+        }
+        #checkbox{
+            margin-bottom: 10px;
+            color: rgb(243, 240, 240);
+        }
+        .form-control::placeholder{
+            color: rgb(148, 148, 148);
+        }
+    </style>
+</head>
+
+
+<body class="text-center">
+    <form class="form-signin">
+        <img class="mb-4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Netflix-new-icon.png/768px-Netflix-new-icon.png" alt="" width="72" height="72" type="image/png">
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus><br>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox mb-3">
+            <label id="checkbox">
+                <input type="checkbox" value="remember-me"> Please do not email me Netflix special offers.
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    </form>
+</body>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
